@@ -20,7 +20,7 @@ The source code is available but you don't need to download it to run the progra
 
 ### Execution
 1. Unzip your new favourite shiny t-rex.  
-2. Run the PE 'Tirexdel 2.7.exe'  
+2. Run the PE 'Tirexdel 2.'x'.exe'  
 3. Configure your API Settings. Go to Settings and:  
   
 &nbsp;&nbsp;&nbsp;&nbsp;Under "Preferences":  
