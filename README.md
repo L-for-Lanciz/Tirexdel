@@ -7,9 +7,9 @@
 ## Source
 You can find the source code of the tool. Don't consider it professional coding. Barely consider it coding. But hey, it works!
 
-## Tirexdel 2.7.7z
+## Tirexdel 2.8.7z
 
-[Tirexdel 2.7.7z download](https://drive.google.com/file/d/1oM1AJo0TXr6LkPuCXr6Yd0XQ8Gn267ce/view?usp=sharing)  
+[Tirexdel 2.8.7z download](https://drive.google.com/file/d/1ZfmO-cYx2FpKe694wF3FoveW2xCSW1LV/view?usp=sharing)  
 
 PE of the program with all the dependencies included, at its latest release!  
 The GUI is based on PyQt6 (great love PyQt team! (even if you are a little buggy but never mind)).  
