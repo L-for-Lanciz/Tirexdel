@@ -9,13 +9,8 @@ Tirexdel is an opensource Intelligence (OSINT) security tool aimed to gather the
 
 &nbsp;
 
-## Source
-You can find the source code of the tool. Don't consider it professional coding, but hey, it works!  
-The tool is still under development (more or less active).
-&nbsp;
-
 ## Tirexdel Download
-You just need the zipped executable. The source code is available but you don't need it to run the program.
+You just need the zipped executable. Don't consider it professional coding, but hey, it works!  
 
 [Tirexdel 2.8 download](https://github.com/L-for-Lanciz/Tirexdel/releases/download/v2.8.0/Tirexdel.2.8.zip)  
 
