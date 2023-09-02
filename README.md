@@ -4,7 +4,7 @@
 
 &nbsp;
 
-Tirexdel is an opensource Intelligence (OSINT) security tool aimed to gather the major quantity and quality of OSINT for the evalution of artifacts and indicators of compromise.
+Tirexdel is an opensource Intelligence (OSINT) security tool aimed to gather the major quantity and quality of OSINT information for the evalution of artifacts and indicators of compromise.
 &nbsp;
 
 &nbsp;
@@ -17,7 +17,7 @@ The tool is still under development (more or less active).
 ## Tirexdel Download
 You just need the zipped executable. The source code is available but you don't need it to run the program.
 
-[Tirexdel 2.8 download](https://github.com/L-for-Lanciz/Tirexdel/releases/download/v2.8.0/Tirexdel.2.8.7z)  
+[Tirexdel 2.8 download](https://github.com/L-for-Lanciz/Tirexdel/releases/download/v2.8.0/Tirexdel.2.8.zip)  
 
 PE of the program with all the dependencies included, at its latest release!  
 The GUI is based on PyQt6 (great love PyQt team! (even if you are a little buggy but never mind)).  
