@@ -104,7 +104,10 @@ Lorenzo Langeli [(LinkedIn)](https://it.linkedin.com/in/lorenzolangeli)
 
 ## Demos
 ### IP Address
-https://github.com/L-for-Lanciz/Tirexdel/assets/74201903/38da642a-e3f2-4db0-ac0b-2afb03bd19d6
+https://github.com/L-for-Lanciz/Tirexdel/assets/74201903/df4d3e33-2b09-438b-8fd8-a4e35b933a02
+
 
 ### File Hash
-https://github.com/L-for-Lanciz/Tirexdel/assets/74201903/6cff234b-560b-42af-a1e1-cfa3147d4038
+https://github.com/L-for-Lanciz/Tirexdel/assets/74201903/fbd371d4-7b3a-4f72-b955-4cc430e686e1
+
+
