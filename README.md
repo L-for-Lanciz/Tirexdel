@@ -64,35 +64,7 @@ The executable has been packed with UPX.
 &nbsp;
 
 ## How it works
-### IP Address Section
-The score from every Vendor is visible for each artifact. Plus, Tirexdel generates a Tirexfactor, which has to be considered as a weighted arithmetic mean. <br />
-
-Every vendor has a different weight in the Tirexfactor final output. <br />
-Here is an approximation*: <br />
-
-- AbuseIPDB : 0.8
-- VirusTotal : 1.1
-- VTCommunity : 0.3
-- Pulsedive : 0.4
-- Greynoise : 0.4
-- IBM XForce : 0.7
-- MetaDefender : 0.8
-
-*This is due to the fact that every Firm has its different scale. Data must be first normalized. <br />
-The above weights have then been assigned according to the Author's experience with the reliability of the information gathered. <br />
-
-
-The Tirexfactor comes labeled according to the given threat of the IoC as: <br />
-
-- Clean: (0%) no malicious activities have been detected for the given artifact. <br />
-- Suspicious: (1-20%) some suspicious activity has been observed for the given artifact. <br />
-- Risky: (21-50%) there are good chances that malicious activities have been performed from the given artifact. <br />
-- Malicious: (51-75%) malicious activities have been for sure detected for the given artifact. <br />
-- Threat: (76-100%) the artifact is known to be malicious. No doubts at all. <br />
-
-Lastly, a [whitelist](https://github.com/L-for-Lanciz/Tirexdel/blob/main/whitelist.ini) is applied for well known ISPs, to make you aware that the IoC may be a false positive. <br />
-IP Addresses that match the whitelist are labeled as "FPALERT". <br />
-
+To explore all the Tirexdel's functionalities and features, you can consult the official [WIKI](https://github.com/L-for-Lanciz/Tirexdel/blob/main/Wiki.md).
 &nbsp;
 
 ## Author
