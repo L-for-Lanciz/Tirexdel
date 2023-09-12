@@ -1,5 +1,4 @@
-# How it works - Tirexdel Wiki
-
+# Tirexdel Documentation
 ## IP Address
 **Scope**: section to perform OSINT queries on IP addresses. <br />
 
