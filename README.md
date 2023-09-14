@@ -10,7 +10,7 @@ Tirexdel is an opensource Intelligence (OSINT) security tool aimed to gather the
 ## Tirexdel Download
 You just need the zipped executable. Don't consider it professional coding, but hey, it works!  
 
-[Tirexdel 2.8 download](https://github.com/L-for-Lanciz/Tirexdel/releases/download/v2.8.0/Tirexdel.2.8.zip)  
+[Tirexdel v1.0.0 download](https://github.com/L-for-Lanciz/Tirexdel/releases/tag/v1.0.0)  
 
 PE of the program with all the dependencies included, at its latest release!  
 The GUI is based on PyQt6 (great love PyQt team! (even if you are a little buggy but never mind)).  
@@ -20,7 +20,7 @@ The executable has been packed with UPX. <br />
 ## Execution
 **1. Unzip your new favourite shiny dinosaur.**  
 
-**2. Run the PE 'Tirexdel _x.y_.exe'**  
+**2. Run the PE 'Tirexdel v_x.y_.exe'**  
 
 **3. Configure your API Settings. Go to _"Settings"_ and:**  
   
@@ -59,6 +59,7 @@ The executable has been packed with UPX. <br />
 &nbsp;&nbsp;&nbsp;&nbsp;VirusTotal <br />
 &nbsp;&nbsp;&nbsp;&nbsp;Urlscan <br />
 &nbsp;&nbsp;&nbsp;&nbsp;AlienVault <br />
+&nbsp;&nbsp;&nbsp;&nbsp;Whoisjson <br />
 **File Hash**: <br />
 &nbsp;&nbsp;&nbsp;&nbsp;VirusTotal <br />
 &nbsp;&nbsp;&nbsp;&nbsp;AlienVault <br />
