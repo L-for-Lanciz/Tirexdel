@@ -71,6 +71,7 @@ Once the script has ended, you will be able to download an XLSX export with the 
 Once you provide your input, that can even be defanged since Tirexdel will automatically handle hXXp, brackets and parenthesis, you can launch the script by clicking on the search button. <br />
 
 The script will call VirusTotal Api and provide related reputation information for your input data. <br />
+If an API key is provided, it will also fetch Whois data from Whoisjson. <br />
 
 Another key functionality provided in this section is the "screenshot" option. <br />
 This feature can be activated/disabled through its dedicated button located at the right of the search button. As you can guess, this <br />
@@ -85,6 +86,7 @@ Once the script has ended, you will be able to download an XLSX export by the pr
 &nbsp;&nbsp;&nbsp;&nbsp;VirusTotal <br />
 &nbsp;&nbsp;&nbsp;&nbsp;Urlscan <br />
 &nbsp;&nbsp;&nbsp;&nbsp;AlienVault <br />
+&nbsp;&nbsp;&nbsp;&nbsp;Whoisjson <br />
 &nbsp;
 
 &nbsp;
