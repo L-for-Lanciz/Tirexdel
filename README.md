@@ -10,7 +10,7 @@ Tirexdel is an opensource Intelligence (OSINT) security tool aimed to gather the
 ## Tirexdel Download
 You just need the zipped executable. Don't consider it professional coding, but hey, it works!  
 
-[Tirexdel v1.0.0 download](https://github.com/L-for-Lanciz/Tirexdel/releases/tag/v1.0.0)  
+[Tirexdel v1.0.1 download](https://github.com/L-for-Lanciz/Tirexdel/releases/download/v1.0.1/Tirexdel.v1.0.1.rar)  
 
 PE of the program with all the dependencies included, at its latest release!  
 The GUI is based on PyQt6 (great love PyQt team! (even if you are a little buggy but never mind)).  
