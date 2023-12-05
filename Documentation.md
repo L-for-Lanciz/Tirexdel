@@ -110,9 +110,9 @@ Once the script has ended, you will be able to download an XLSX export through t
 ## MailOctopus
 **Scope**: section for performing a fully automated heuristic and OSINT analysis on input provided E-Mail. <br />
 
-By providing an email as an input for the script, it will automatically procede with data exctraction and parsing of its details and network/host artifacts. <br />
+By providing an email as an input for the script, it will automatically proceed with data extraction and parsing of its details and network/host artifacts. <br />
 In this first stage, all of the analysis is made client-side without any API activity. That means that you have no reason to worry about data privacy.
-The email data will be disposed in three groups: left, central and right. <br />
+The email data will be disposed of in three groups: left, central, and right. <br />
 &nbsp;
 
 On the **left**, you will find the header of the email in 3 different views: <br />
@@ -135,8 +135,8 @@ On the **right**, you will find the network artifacts extracted from the email, 
 &nbsp;&nbsp;&nbsp;&nbsp;*'Email addresses found'* inside the email body. <br />
 &nbsp;
 
-At the very top of the screen you have three main buttons: <br />
-&nbsp;&nbsp;&nbsp;&nbsp;**'New analysis'** . <br />
-&nbsp;&nbsp;&nbsp;&nbsp;**'Generate a PDF Report'** . <br />
-&nbsp;&nbsp;&nbsp;&nbsp;**'OSINT analysis'**. <br />
+At the very top of the screen, you have three main buttons: <br />
+&nbsp;&nbsp;&nbsp;&nbsp;**'New analysis'**: for submitting a new E-mail to analyze. <br />
+&nbsp;&nbsp;&nbsp;&nbsp;**'Generate a PDF Report'**: for generating a PDF report from the artifacts of interest. *Note: you have to perform the OSINT analysis first.* <br />
+&nbsp;&nbsp;&nbsp;&nbsp;**'OSINT analysis'**: for executing the - Tirexdel core - OSINT analysis on the extracted network and file artifacts. Once completed, a new window is shown, where you can find the OSINT analysis on the left and the heuristic analysis on the right. On the upper-left, a comprehensive threat score is computed.<br />
 &nbsp;
