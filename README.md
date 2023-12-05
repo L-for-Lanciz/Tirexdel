@@ -7,14 +7,23 @@ Tirexdel is an opensource Intelligence (OSINT) security tool aimed to gather the
 
 &nbsp;
 
-## Tirexdel Download
-You just need the zipped executable. Don't consider it professional coding, but hey, it works!  
+## Tirexdel in a Nutshell
+**Automated OSINT analysis for indicators of compromise (IoCs), divided into:** <br />
+&nbsp;&nbsp;&nbsp;&nbsp;• IP address: *[IP Address]* module for a deep analysis; [Troppip] module for speed analysis. <br />
+&nbsp;&nbsp;&nbsp;&nbsp;• Domains/URLs: *[Domain/URL]* module. <br />
+&nbsp;&nbsp;&nbsp;&nbsp;• File Hashes: *[File Hashes]* module for MD5, SHA1, SHA256. <br />
+**Automated E-Mail analysis using OSINT and heuristic techniques**: <br />
+&nbsp;&nbsp;&nbsp;&nbsp;• *[Mailoctopus]* module <br />
 
-[Tirexdel v1.0.1 download](https://github.com/L-for-Lanciz/Tirexdel/releases/download/v1.0.1/Tirexdel.v1.0.1.rar)  
+&nbsp;
+
+## Tirexdel Download
+Here you can find the latest release. Have a nice time with your T-Rex.  
+
+[Tirexdel v1.1.0 download](https://github.com/L-for-Lanciz/Tirexdel/releases/download/v1.1.0/Tirexdel.1.1.0.zip)  
 
 PE of the program with all the dependencies included, at its latest release!  
-The GUI is based on PyQt6 (great love PyQt team! (even if you are a little buggy but never mind)).  
-The executable has been packed with UPX. <br />
+The GUI is based on PyQt6 (great love PyQt team! (even if you are a little buggy but never mind)). <br />
 &nbsp;
 
 ## Execution
@@ -40,33 +49,31 @@ The executable has been packed with UPX. <br />
 &nbsp;&nbsp;&nbsp;&nbsp;• **Domain/URL**: execute queries on domains and URLs. VirusTotal is implemented for data and reputation, Urlscan to gather screenshots. Plus an AlienVault feature.  
 &nbsp;&nbsp;&nbsp;&nbsp;• **File Hash**: execute queries on MD5, SHA1 and SHA256. Only VirusTotal is implemented at the moment, plus an AlienVault feature.  
   
-&nbsp;&nbsp;&nbsp;&nbsp;• **Triage Matrix**: an easy way to assess new vulnerabilities.  
+&nbsp;&nbsp;&nbsp;&nbsp;• **Mailoctopus**: a fully automated heuristic and OSINT E-Mail analysis module.  
 &nbsp;
 
 ## OSINT Sources
 **IP Address**: <br />
-&nbsp;&nbsp;&nbsp;&nbsp;VirusTotal <br />
-&nbsp;&nbsp;&nbsp;&nbsp;AbuseIPDB <br />
-&nbsp;&nbsp;&nbsp;&nbsp;AlienVault <br />
-&nbsp;&nbsp;&nbsp;&nbsp;Shodan <br />
-&nbsp;&nbsp;&nbsp;&nbsp;IBM XForce <br />
-&nbsp;&nbsp;&nbsp;&nbsp;MetaDefender <br />
-&nbsp;&nbsp;&nbsp;&nbsp;GreyNoise <br />
-&nbsp;&nbsp;&nbsp;&nbsp;PulseDive <br />
+&nbsp;&nbsp;&nbsp;&nbsp;*VirusTotal* <br />
+&nbsp;&nbsp;&nbsp;&nbsp;*AbuseIPDB* <br />
+&nbsp;&nbsp;&nbsp;&nbsp;*AlienVault* <br />
+&nbsp;&nbsp;&nbsp;&nbsp;*Shodan* <br />
+&nbsp;&nbsp;&nbsp;&nbsp;*IBM XForce* <br />
+&nbsp;&nbsp;&nbsp;&nbsp;*MetaDefender* <br />
+&nbsp;&nbsp;&nbsp;&nbsp;*GreyNoise* <br />
+&nbsp;&nbsp;&nbsp;&nbsp;*PulseDive* <br />
 **Troppip**: <br />
-&nbsp;&nbsp;&nbsp;&nbsp;AbuseIPDB <br />
+&nbsp;&nbsp;&nbsp;&nbsp;*AbuseIPDB* <br />
 **Domain/URL**: <br />
-&nbsp;&nbsp;&nbsp;&nbsp;VirusTotal <br />
-&nbsp;&nbsp;&nbsp;&nbsp;Urlscan <br />
-&nbsp;&nbsp;&nbsp;&nbsp;AlienVault <br />
-&nbsp;&nbsp;&nbsp;&nbsp;Whoisjson <br />
+&nbsp;&nbsp;&nbsp;&nbsp;*VirusTotal* <br />
+&nbsp;&nbsp;&nbsp;&nbsp;*Urlscan* <br />
+&nbsp;&nbsp;&nbsp;&nbsp;*APILayer Whois* <br />
 **File Hash**: <br />
-&nbsp;&nbsp;&nbsp;&nbsp;VirusTotal <br />
-&nbsp;&nbsp;&nbsp;&nbsp;AlienVault <br />
+&nbsp;&nbsp;&nbsp;&nbsp;*VirusTotal* <br />
 &nbsp;
 
 ## How it works
-To explore all the Tirexdel's functionalities and features, you can consult the official [WIKI](https://github.com/L-for-Lanciz/Tirexdel/blob/main/Wiki.md). <br />
+To explore all the Tirexdel's functionalities and features, you can consult the official [Documentation](https://github.com/L-for-Lanciz/Tirexdel/blob/main/Documentation.md). <br />
 &nbsp;
 
 ## Author
