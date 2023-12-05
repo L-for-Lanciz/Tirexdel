@@ -1,9 +1,9 @@
 # Tirexdel Documentation
 ## IP Address
-**Scope**: section to perform OSINT queries on IP addresses. <br />
+**Scope**: section for performing OSINT queries on IP addresses. <br />
 
 Use the textbox to provide your input: you can pass a list of IP Addresses separated by a new line. <br />
-Once you provide input data, that can even be defanged since Tirexdel will automatically handle brackets and parenthesis, you can launch the script by clicking on the search button. <br />
+Once you provide some input data, that can even be defanged since Tirexdel will automatically handle brackets and parenthesis, you can launch the script by clicking on the search button. <br />
 
 The score from every Vendor is visible for each artifact. Plus, Tirexdel generates a Tirexfactor, which has to be considered as a weighted arithmetic mean. <br />
 
@@ -22,11 +22,11 @@ Here is an approximation*: <br />
 The above weights have then been assigned according to the Author's experience with the reliability of the information gathered. <br />
 
 
-The Tirexfactor comes labeled according to the given threat of the IoC as: <br />
+The Tirexfactor comes labeled according to the given threat level of the IoC, as: <br />
 
 - Clean: (0%) no malicious activities have been detected for the given artifact. <br />
 - Suspicious: (1-20%) some suspicious activity has been observed for the given artifact. <br />
-- Risky: (21-50%) there are good chances that malicious activities have been performed from the given artifact. <br />
+- Risky: (21-50%) possible malicious activities have been performed from the given artifact. <br />
 - Malicious: (51-75%) malicious activities have been for sure detected for the given artifact. <br />
 - Threat: (76-100%) the artifact is known to be malicious. No doubts at all. <br />
 
@@ -37,7 +37,7 @@ Other information which are collected but not used to compute the arithmetic mea
 Lastly, a [whitelist](https://github.com/L-for-Lanciz/Tirexdel/blob/main/whitelist.ini) is applied for well known ISPs, to make you aware that the IoC may be a false positive. <br />
 IP Addresses that match the whitelist are labeled as "FPALERT". <br />
 
-Once the script has ended, you will be able to download an XLSX export by the proper button. <br />
+Once the script has ended, you will be able to download an XLSX export through the dedicated button. <br />
 &nbsp;
 
 #### OSINT Sources
@@ -53,11 +53,11 @@ Once the script has ended, you will be able to download an XLSX export by the pr
 &nbsp;
 
 ## Troppip
-**Scope**: section to perform OSINT queries over bulks of IP addresses, in particular if you need speed or if you have limited APIs. <br />
+**Scope**: section for performing OSINT queries over bulks of IP addresses, in particular if you need speed or if you haven't configured all the APIs. <br />
 
 Once you provide your input, that can even be defanged since Tirexdel will automatically handle brackets and parenthesis, you can launch the script by clicking on the search button. <br />
-Within this section, Tirexdel will query only AbuseIPDB, for a fast and light feedback. <br />
-Once the script has ended, you will be able to download an XLSX export with the same information given in the table by the proper button. <br />
+Within this section, Tirexdel will query only *AbuseIPDB*, for a fast and light feedback. <br />
+Once the script has ended, you will be able to download an XLSX export, with the same information shown in the table, through the dedicated button. <br />
 &nbsp;
 
 #### OSINT Sources
@@ -66,44 +66,77 @@ Once the script has ended, you will be able to download an XLSX export with the 
 &nbsp;
 
 ## Domain/URL
-**Scope**: section to perform OSINT queries on Domains and URLs. <br />
+**Scope**: section for performing OSINT queries on Domains and URLs. <br />
 
 Once you provide your input, that can even be defanged since Tirexdel will automatically handle hXXp, brackets and parenthesis, you can launch the script by clicking on the search button. <br />
 
-The script will call VirusTotal Api and provide related reputation information for your input data. <br />
+The script will call VirusTotal Api and provide related reputation information for the input data. <br />
 If an API key is provided, it will also fetch Whois data from Whoisjson. <br />
 
 Another key functionality provided in this section is the "screenshot" option. <br />
 This feature can be activated/disabled through its dedicated button located at the right of the search button. As you can guess, this <br />
 If activated, the script will obtain - from Urlscan - a screenshot of every URL or Domain given as input and will be automatically stored in the "/screenshot" folder. <br />
 
-Eventually, this section supports even AlienVault: by selecting one indicator from the table, you can use the AlienVault button to spawn a window with the relative artifact's page. <br />
+Eventually, this section provides you a *"Auto submit unknowns"* button, that allows you to opt to automatically submit URLs that are actually unknown to VirusTotal, by actually requesting a live scan, as this is not the default behaviour. <br />
+*Note: a deep scan that request both screenshot and auto-submit will take longer than a simple scan. That's why it's up to your choice: just be patient in case.*
 
-Once the script has ended, you will be able to download an XLSX export by the proper button. <br />
+Once the script has ended, you will be able to download an XLSX export through the dedicated button. <br />
 &nbsp;
 
 #### OSINT Sources
 &nbsp;&nbsp;&nbsp;&nbsp;VirusTotal <br />
 &nbsp;&nbsp;&nbsp;&nbsp;Urlscan <br />
-&nbsp;&nbsp;&nbsp;&nbsp;AlienVault <br />
-&nbsp;&nbsp;&nbsp;&nbsp;Whoisjson <br />
-&nbsp;
-
+&nbsp;&nbsp;&nbsp;&nbsp;APILayer Whois <br />
 &nbsp;
 
 ## File Hash
-**Scope**: section to perform OSINT queries on File Hashes <br />
+**Scope**: section for performing OSINT queries on File Hashes <br />
 
-The script will call VirusTotal API and provide related reputation information for your input data. <br />
+The script will call VirusTotal API and provide related reputation information for the input data. <br />
 Once you provide your input, that can even be defanged since Tirexdel will automatically handle hXXp, brackets and parenthesis, you can launch the script by clicking on the search button. <br />
 All the information retrieved is shown within the GUI in a table. <br />
 
 Eventually, this section supports even AlienVault: by selecting one indicator from the table, you can use the AlienVault button to spawn a window with the relative artifact's page. <br />
 
-Once the script has ended, you will be able to download an XLSX export by the proper button. <br />
+Once the script has ended, you will be able to download an XLSX export through the dedicated button. <br />
 &nbsp;
 
 #### OSINT Sources
 &nbsp;&nbsp;&nbsp;&nbsp;VirusTotal <br />
-&nbsp;&nbsp;&nbsp;&nbsp;AlienVault <br />
+&nbsp;
+
+&nbsp;
+
+## MailOctopus
+**Scope**: section for performing a fully automated heuristic and OSINT analysis on input provided E-Mail. <br />
+
+By providing an email as an input for the script, it will automatically procede with data exctraction and parsing of its details and network/host artifacts. <br />
+In this first stage, all of the analysis is made client-side without any API activity. That means that you have no reason to worry about data privacy.
+The email data will be disposed in three groups: left, central and right. <br />
+&nbsp;
+
+On the **left**, you will find the header of the email in 3 different views: <br />
+&nbsp;&nbsp;&nbsp;&nbsp;*'Significant header details'*. <br />
+&nbsp;&nbsp;&nbsp;&nbsp;*'Parsed (all) headers details'*. <br />
+&nbsp;&nbsp;&nbsp;&nbsp;*'Raw header'*. <br />
+&nbsp;
+
+At the **center**, you will find: <br />
+&nbsp;&nbsp;&nbsp;&nbsp;the *'subject'* of the email. <br />
+&nbsp;&nbsp;&nbsp;&nbsp;*'sender', 'from, 'cc', 'date'* details. <br />
+&nbsp;&nbsp;&nbsp;&nbsp;*three shield icons* one for each of 'DKIM', 'DMARC' and 'SPF' email security protocols. A green shield means that the signature is verified; the grey shield means that it was not possible to verify the signature (probably missing); the red shield means that the signature is NOT verified. <br />
+&nbsp;&nbsp;&nbsp;&nbsp;*Attachments* of the email, in case of any. <br />
+&nbsp;
+
+On the **right**, you will find the network artifacts extracted from the email, that include the ones found in the body, and the sender IP address and domain: <br />
+&nbsp;&nbsp;&nbsp;&nbsp;*'IP addresses found'* inside the email body; and the sender IP address from the header. <br />
+&nbsp;&nbsp;&nbsp;&nbsp;*'Domains found'* inside the email body; and the sender domain from the header. <br />
+&nbsp;&nbsp;&nbsp;&nbsp;*'URLs found'* inside the email body. <br />
+&nbsp;&nbsp;&nbsp;&nbsp;*'Email addresses found'* inside the email body. <br />
+&nbsp;
+
+At the very top of the screen you have three main buttons: <br />
+&nbsp;&nbsp;&nbsp;&nbsp;**'New analysis'** . <br />
+&nbsp;&nbsp;&nbsp;&nbsp;**'Generate a PDF Report'** . <br />
+&nbsp;&nbsp;&nbsp;&nbsp;**'OSINT analysis'**. <br />
 &nbsp;
