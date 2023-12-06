@@ -36,7 +36,6 @@ The GUI is based on PyQt6 (great love PyQt team! (even if you are a little buggy
 &nbsp;&nbsp;&nbsp;&nbsp;Under _**"Preferences"**_:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• _Download Path_: paste the path in which you want to save your outputs. <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• _SSL Cert Bypass_: set it to TRUE if you have issues with proxy. Let it to FALSE otherwise. <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• _IP-Address Layout_: layout for the 'IP Address' section. Set it to NEW, it's much cooler. <br />
    
 &nbsp;&nbsp;&nbsp;&nbsp;Under _**"API Keys Settings"**_:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Set your API keys to make your t-rex dancing.  
