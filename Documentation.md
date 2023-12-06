@@ -1,4 +1,37 @@
 # Tirexdel Documentation
+Welcome in the Official Tirexdel Documentation. <br />
+Here you should find all the information you may need to get the best out of your new dinosaur! <br />
+&nbsp;
+
+## Summary
+[CONFIGURATION](#configuration) <br />
+[IP ADDRESS](#ip-address) <br />
+[TROPPIP](#troppip) <br />
+[DOMAIN/URL](#domainurl) <br />
+[FILE HASH](#file-hash) <br />
+[MAILOCTOPUS](#mailoctopus)
+&nbsp;
+
+&nbsp;
+
+## Configuration
+**1. Unzip your new favourite shiny dinosaur.**  
+
+**2. Run the PE 'Tirexdel v_x.y_.exe'**  
+
+**3. Configure your API Settings. Go to _"Settings"_ and:**  
+  
+&nbsp;&nbsp;&nbsp;&nbsp;Under _**"Preferences"**_:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• _Download Path_: paste the path in which you want to save your outputs. <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• _SSL Cert Bypass_: set it to TRUE if you have issues with proxy. Let it to FALSE otherwise. <br />
+   
+&nbsp;&nbsp;&nbsp;&nbsp;Under _**"API Keys Settings"**_:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Set your API keys to make your t-rex dancing.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Important**: VirusTotal and AbuseIPDB are mandatory. Every other API is just optional but recommended.  
+&nbsp;
+
+&nbsp;
+
 ## IP Address
 **Scope**: section for performing OSINT queries on IP addresses. <br />
 
@@ -138,5 +171,5 @@ On the **right**, you will find the network artifacts extracted from the email, 
 At the very top of the screen, you have three main buttons: <br />
 &nbsp;&nbsp;&nbsp;&nbsp;**'New analysis'**: for submitting a new E-mail to analyze. <br />
 &nbsp;&nbsp;&nbsp;&nbsp;**'Generate a PDF Report'**: for generating a PDF report from the artifacts of interest. *Note: you have to perform the OSINT analysis first.* <br />
-&nbsp;&nbsp;&nbsp;&nbsp;**'OSINT analysis'**: for executing the - Tirexdel core - OSINT analysis on the extracted network and file artifacts. Once completed, a new window is shown, where you can find the OSINT analysis on the left and the heuristic analysis on the right. On the upper-left, a comprehensive threat score is computed.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;**'OSINT analysis'**: for executing - the Tirexdel core - OSINT analysis on the extracted network and file artifacts. Once completed, a new window is shown, where you can find the OSINT analysis on the left and the heuristic analysis on the right. On the upper-left, a comprehensive threat score is computed.<br />
 &nbsp;
