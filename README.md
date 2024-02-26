@@ -2,7 +2,7 @@
 ![auicon](https://user-images.githubusercontent.com/74201903/230610673-cc5053d1-edaf-4130-8a81-a0498ac2eedd.png) <br />
 &nbsp;
 
-Tirexdel is an opensource Intelligence (OSINT) security tool aimed to gather the major quantity and quality of OSINT information for the evalution of artifacts and indicators of compromise.
+Tirexdel is an open source Intelligence (OSINT) security tool aimed to gather the major quantity and quality of OSINT information for the evalution of artifacts and indicators of compromise.
 &nbsp;
 
 &nbsp;
@@ -20,7 +20,7 @@ Tirexdel is an opensource Intelligence (OSINT) security tool aimed to gather the
 ## Tirexdel Download
 Here you can find the latest release. Have a nice time with your T-Rex.  
 
-[Tirexdel v1.1.0 download](https://github.com/L-for-Lanciz/Tirexdel/releases/download/v1.1.0/Tirexdel.1.1.0.zip)  
+[Tirexdel v1.1.1 download](https://github.com/L-for-Lanciz/Tirexdel/releases/download/v1.1.1/Tirexdel.v1.1.1.zip)  
 
 PE of the program with all the dependencies included, at its latest release!  
 The GUI is based on PyQt6 (great love PyQt team! (even if you are a little buggy but never mind)). <br />
@@ -80,12 +80,5 @@ Project founder: <br />
 Lorenzo Langeli [(LinkedIn)](https://it.linkedin.com/in/lorenzolangeli) <br />
 &nbsp;
 
-## Demos
-### IP Address
-https://github.com/L-for-Lanciz/Tirexdel/assets/74201903/df4d3e33-2b09-438b-8fd8-a4e35b933a02
-
-
-### File Hash
-https://github.com/L-for-Lanciz/Tirexdel/assets/74201903/fbd371d4-7b3a-4f72-b955-4cc430e686e1
-
-
+## Demo
+[![Watch the video](https://img.youtube.com/vi/nF_0SmXdWaM/maxresdefault.jpg)](https://youtu.be/nF_0SmXdWaM)
